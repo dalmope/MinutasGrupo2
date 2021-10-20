@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20/10/2021, 11:50:57 a. m.
+    Author     : delmo
+*/
+
+.login{
+    background-color: #F1F1F1;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    grid-template-areas: "image-login login";
+    justify-items: center; 
+    align-items: center; 
+    column-gap: 20px;
+}
+
+.login .image-login img{
+    width:99%;
+    grid-area: image-login;
+}
+
+.login .login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+    grid-area: login;
+    font-family: Poppins;
+    color: #234351;
+}
+
+.login .login-content .form-login .fields .data{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 1px #000,
+    inset -1px -1px #000;
+    margin-bottom: 20px;
+}
+
+.login .login-content .form-login .fields .data i{
+    color: #000;
+    font-size: 4vh;
+    margin: 20px 5px 20px 20px;
+}
+
+.login .login-content .form-login .fields .data input {
+    color: #000;
+    font-size: 4vh;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 20px 20px 20px 10px;
+}
+
+.login .login-content .form-login .btn-login {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    font-size: 4vh;
+    background: #053546;
+    border-radius: 20px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.login .login-content form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1vh;
+    font-family: Poppins;
+    color: #234351;
+}
+
+.login .login-content form button{
+    font-size: 3vh;
+    font-family: Poppins;
+    color: #234351;
+}
+
+.login .login-content .form-login .fields .data ::placeholder {
+    color: #000;
+    font-family: Poppins;
+}
