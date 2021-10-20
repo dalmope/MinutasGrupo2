@@ -1,4 +1,4 @@
-package com.mycompany.gestion_minutas_y_turnos;
+package com.mycompany.MinutasGrupo2;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
